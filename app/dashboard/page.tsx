@@ -1,6 +1,8 @@
 'react';
+
 import React from 'react';
 import Link from 'next/link';
+import { Navbar } from '../layout';
 
 export default function DashboardPage() {
   // Data simulasi untuk rekomendasi pekerjaan berbasis AI
@@ -37,49 +39,6 @@ export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       
-      {/* --- NAVIGATION BAR --- */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 h-16 flex items-center justify-between">
-          
-          {/* Logo Brand */}
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-purple-500 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-600/30">
-              HJ
-            </div>
-            <span className="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-              Hiring Jobs<span className="text-indigo-400">.ai</span>
-            </span>
-          </div>
-
-          {/* Navigation Links */}
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-            <Link href="/dashboard" className="text-indigo-400 transition-colors">
-              Dashboard
-            </Link>
-            <Link href="/jobs" className="hover:text-white transition-colors">
-              Cari Lowongan
-            </Link>
-            <Link href="/tentang" className="hover:text-white transition-colors">
-              Tentang Kami
-            </Link>
-            <Link href="/kontak" className="hover:text-white transition-colors">
-              Kontak Kami
-            </Link>
-          </nav>
-
-          {/* User Profile Action / Status */}
-          <div className="flex items-center gap-4">
-            <div className="hidden sm:flex flex-col text-right">
-              <span className="text-xs font-semibold text-white"> J. D. Putri H. </span>
-              <span className="text-[10px] text-indigo-400">Pro Member</span>
-            </div>
-            <div className="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-white font-bold text-sm shadow-inner">
-              JD
-            </div>
-          </div>
-
-        </div>
-      </header>
 
       {/* --- KONTEN UTAMA DASHBOARD ANDA --- */}
       <main className="py-12 px-4 sm:px-8 lg:px-16">
