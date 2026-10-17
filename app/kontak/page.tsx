@@ -48,7 +48,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-sm font-semibold text-white">Alamat Kantor</h4>
-                    <p className="text-slate-400 text-sm mt-1">Jl. Inovasi Teknologi No. 45, Jakarta Selatan, Indonesia</p>
+                    <p className="text-slate-400 text-sm mt-1">Jl. Kutai, Jember - Jawa Timur, Indonesia</p>
                   </div>
                 </div>
 
