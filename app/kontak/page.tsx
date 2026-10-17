@@ -58,7 +58,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-sm font-semibold text-white">Email Dukungan</h4>
-                    <p className="text-slate-400 text-sm mt-1">support@hiringjobs.ai</p>
+                    <p className="text-slate-400 text-sm mt-1">support@hiringjobs.ai.com</p>
                   </div>
                 </div>
 
